@@ -1,0 +1,202 @@
+/* Box Sizing */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: powderblue;
+}
+h1 {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 64px;
+    line-height: 55px;
+    letter-spacing: -2px;
+    color: white;
+    margin: 70px 0 0;
+}
+
+h1:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 2px;
+	display: inline-block;
+	background: white;
+	bottom: 19px;
+	left: 0;
+}
+
+h1 span {
+	display: inline-block;
+}
+
+.t1 {
+    letter-spacing: -5.4px;
+	margin-right: -3px;
+}
+
+.t2 {
+	letter-spacing: 0px;
+}
+
+.t3 {
+	font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.t4 {
+	font-size: 40px;
+    letter-spacing: 2px;
+    top: -15px;
+    position: relative;
+}
+
+.t5 {
+	font-size: 27px;
+    letter-spacing: 4px;
+    top: -45px;
+    position: relative;
+}
+
+h2 {
+	margin: 40px 0 -5px;
+	font-size: 22px;
+
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: #333;
+}
+
+a:hover {
+	color: indigo;
+}
+
+.header-content {
+	position: relative;
+	height: 490px;
+	width: 100%;
+	background: url(../img/post-it.jpg) center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.sub-title {
+	color: white;
+	letter-spacing: 0.7px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.center { text-align: center}
+.content {
+    position: relative;
+    max-width: 600px;
+    margin: 4.5em auto 5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.info {
+    padding: 0.5em 2em;
+    text-align: center;
+    background-color: #98d6de;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.info span {
+	font-size: 12px;
+}
+
+ul {
+	padding: 0;
+}
+
+li:first-child {
+    padding-right: 30px;
+}
+
+li {
+    width: 50%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	float: left;
+}
+
+li img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+li p {
+    margin: 0;
+    line-height: 18px;
+}
+
+li span {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.contact {
+    padding: 2em;
+    text-align: center;
+    background-color: #98d6de;
+}
+
+.contact div {
+	max-width: 600px;
+	display: inline-block;
+	text-align: left;
+}
+
+.contact h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.social {
+    display: inline-block;
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.social span {
+    font-size: 12px;
+}
+
+@media(min-width:600px) {
+    .content {
+        padding: 0;
+    }
+}
